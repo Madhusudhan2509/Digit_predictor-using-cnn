@@ -26,14 +26,7 @@ Features
 
 ---
 
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/your-username/real-time-digit-cnn.git
-cd real-time-digit-cnn
-
-### 2. Install dependencies
+#1. Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -45,7 +38,7 @@ pip install numpy tensorflow opencv-python matplotlib
 
 ---
 
-### 3.Train the CNN
+#2.Train the CNN
 
 To train a digit recognition CNN using the MNIST dataset:
 
@@ -57,7 +50,7 @@ This will generate a file `saved_model/mnist_cnn.h5`.
 
 ---
 
-### 4.Run Real-Time Digit Recognition
+#4.Run Real-Time Digit Recognition
 
 After training:
 
